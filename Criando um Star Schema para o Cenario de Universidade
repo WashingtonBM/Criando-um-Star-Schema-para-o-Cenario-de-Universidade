@@ -1,0 +1,16 @@
+Criando um Star Schema para o Cenario de Universidade
+
+**“MODELO UNIVERSIDADE.mwb”** é um modelo do **MySQL Workbench**;
+
+1. 📊 **Foco:** a tabela fato principal é **Fato_Professor**;
+
+2. 🧩 Nível de detalhe:
+
+Simplificou-s o modelo, mantendo apenas dimensões relevantes (como Departamento, Curso, Disciplina, Tempo, Campus etc.);
+Reconstruiu-se o Star Schema com chaves, nomes, tipos de dados e relacionamento;
+
+3. 💾 Ações:
+
+* Analisou-se o modelo original;
+* Eliminou-se as tabelas desnecessárias;
+* Converteu-se em modelo estrela, centrado na Fato_Professor.
